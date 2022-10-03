@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto';
+}
+
+/* general */
+
+.container{
+    max-width: 1120px; ;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.btn{
+    all:unset; 
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 10em;
+    cursor: pointer;
+
+}
+
+
+/* navbar */
+
+.nav-top{
+    background-color: #0084FD;
+    height: 4.7rem;
+}
+
+.nav-top ul{
+    display: none;
+}
+
+.nav-top .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav-top .hamburger{
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:811px){
+    .nav-top .hamburger {
+        display: none;
+    }
+
+    .nav-top ul{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        list-style: none;
+    }
+    
+    .nav-top li{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        
+    }
+    
+    .nav-top .nav-link{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1rem;
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* .nav-top .nav-link:visited{
+        color: white;
+    } */
+    
+    .nav-top .nav-link:hover {
+        background-color: aquamarine;
+    }
+    
+    .nav-top .btn{
+        background-color: white;
+        padding: .5rem;
+    }
+    
+    .nav-top .btn:hover{
+        background-color: lightgrey;
+    }
+
+}
+
+/* main */
+
+/* section1 */
+
+.container-sec1{
+    max-width: 100vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #B5DDFF;
+}
+.container-sec1 h4{
+    text-align: center;
+    color: #0185FD;
+    font-size: 25px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-sec1 p{
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.btn-sec1{
+    color: white;
+    background-color: #0084FD;
+    padding: 1rem 5rem;
+    margin: .5rem 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.container-sec1 img{
+    width: 90%;
+    display: block;
+    margin: 0 auto; 
+}
+
+.icon-sec1{
+    display: flex;
+    font-size: 100px;
+    color: #0185FD;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.p-sec1{
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
