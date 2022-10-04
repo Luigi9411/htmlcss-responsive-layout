@@ -12,7 +12,10 @@ html{
 
 .container,
 .container1,
-.container2{
+.container2,
+.container3,
+.container4,
+.container5{
     max-width: 1120px; ;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -340,7 +343,8 @@ html{
 }
 
 @media screen and  (min-width:945px){
-        .container{
+
+        .container3{
             display: flex;
             gap: 1em;
             padding: 1em 13em;
@@ -376,4 +380,63 @@ html{
         }
 
 
+}
+
+/* section3 */
+
+.container4 h5{
+    text-align: center;
+    font-size: 1em;
+    padding-top: 3em;
+}
+
+.container4 h2{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1em;
+    color: #9792E4;
+}
+
+.container4 p{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1em 0;
+    line-height: 30px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    background-color: #9792E4;
+    margin: 1.5em 1.5em;
+    padding: 1em 0;
+    border-radius: 20px;
+}
+
+.container5 img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self:center;
+}
+
+.text-sec3{
+    text-align: center;
+    padding: 1em 0;
+    color: white;
+}
+
+.text-sec3 p{
+    font-size: 1.4em;
+    line-height: 30px;
+}
+
+.text-sec3 h4{
+    padding-top: 1em ;
+}
+
+.quotation-marks{
+    font-size: 2em;
+    vertical-align:middle;
 }
