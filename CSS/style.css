@@ -405,10 +405,10 @@ html{
 }
 
 .container5{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-align: center;
     background-color: #9792E4;
-    margin: 1.5em 1.5em;
+    margin: 1.5em 0;
     padding: 1em 0;
     border-radius: 20px;
 }
@@ -416,8 +416,8 @@ html{
 .container5 img{
     object-fit: cover;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 12.5em;
+    width: 12.5em;
     align-self:center;
 }
 
@@ -440,3 +440,63 @@ html{
     font-size: 2em;
     vertical-align:middle;
 }
+
+@media (min-width:600px) and (max-width:944px){
+   
+    
+    
+    .container5{
+        display: flex; 
+        padding: 1.5em 0.5em;
+    }
+
+    .sec3-img{
+       flex: 0 1 0;
+    }
+
+    .text-sec3{
+      flex: 1 1 0; 
+      margin: 1em 1em; 
+    }
+
+    .container5 p{
+      font-size: 11.8px;
+      text-align: left;
+    }
+
+    .container5 h4{
+    text-align: left;  
+    }
+}
+
+@media screen and  (min-width:945px){
+    .container5{
+        margin: 1.5em 0;
+        display: flex; 
+        padding: 1.5em 0.5em;
+    }
+
+    .sec3-img{
+       flex: 0 1 0;
+    }
+
+    .text-sec3{
+      flex: 1 1 0; 
+      margin: 1em 1em; 
+    }
+
+    .container5 p{
+      font-size: 11.8px;
+      text-align: left;
+      padding: 1em 1em;
+    }
+
+    .container5 h4{
+    text-align: left; 
+    padding-left: 1em; 
+    }
+}
+
+/* section4 */
+
+
