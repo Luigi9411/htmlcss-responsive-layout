@@ -16,7 +16,9 @@ html{
 .container3,
 .container4,
 .container5,
-.container6{
+.container6,
+.container7,
+.container8{
     max-width: 1120px; ;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -444,8 +446,6 @@ html{
 
 @media (min-width:600px) and (max-width:944px){
    
-    
-    
     .container5{
         display: flex; 
         padding: 1.5em 0.5em;
@@ -466,7 +466,7 @@ html{
     }
 
     .container5 h4{
-    text-align: left;  
+      text-align: left;  
     }
 }
 
@@ -508,6 +508,7 @@ html{
     color: white;
     text-align: center;
     margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-bottom: 2em;
     font-size: 2em;
 }
@@ -566,4 +567,64 @@ html{
     .ctn-sec4{
         flex: 1 0 25%;
     }
+}
+
+/* section5 */
+
+.first-sec5 h1{
+    font-size: 2em;
+    margin: 1em 0;
+    color: #9792E4;
+}
+
+.first-sec5 p{
+    padding-bottom: 2.5em;
+    line-height: 30px;
+    font-size: 1.2em;
+    
+}
+
+.sec5-img{
+    position: relative;
+}
+
+.second-sec5 img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 12.5em;
+    width: 12.5em;
+    align-self:center;
+}
+
+.quotation-marks2{
+    position: absolute;
+    top: -.2em;
+    left: 1.1em;
+    font-size: 8em;
+    color: #9792E4;
+}
+
+.second-sec5 h4{
+    color: #9792E4;
+    font-size: 1.8em;
+    margin: .5em 0;
+}
+
+.btn-sec5{
+    padding: .4em 1em;
+    background-color: #9792E4;
+    color: white;
+    margin: 1em 0;
+}
+
+.fa-linkedin-in{
+    padding: .05em .1em;
+    background-color: white;
+    font-size: .8em ;
+    color: #9792E4;
+    margin-right: .3em;
+}
+
+@media (min-width:600px) and (max-width:944px){
+    
 }
