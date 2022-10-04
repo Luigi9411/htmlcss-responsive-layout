@@ -338,3 +338,42 @@ html{
         padding: 0 auto;
     }
 }
+
+@media screen and  (min-width:945px){
+        .container{
+            display: flex;
+            gap: 1em;
+            padding: 1em 13em;
+        }
+
+        .card-sec2{
+            flex: 1 0 35%;
+            padding: 1em 1em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card2-sec2{
+            flex: 1 0 25%;
+            align-self: flex-end;
+        }
+
+        .card-sec2 img{
+            max-width: 100%;
+            margin-bottom: 5em;
+        }
+
+        .card-sec2 p{
+            font-size: .9em;
+            line-height: 20px;
+        }
+    
+        .card2-sec2 p{
+            font-size: 0.85em;
+            text-align: center;
+            padding: 0.5em 1.5em;
+            line-height: 20px;
+        }
+
+
+}
