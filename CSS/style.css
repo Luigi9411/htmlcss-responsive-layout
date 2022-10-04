@@ -504,10 +504,11 @@ html{
     background-color: #9792E4;
 }
 
-.container6 h1{
+.ctn-color h1{
     color: white;
     text-align: center;
-    padding: 2em 0;
+    margin-left: 0.5em;
+    margin-bottom: 2em;
     font-size: 2em;
 }
 
@@ -541,4 +542,28 @@ html{
     background-color: #9792E4;
     color: white;
     margin-bottom: 1em;
+}
+
+@media (min-width:600px) and (max-width:944px){
+    .container6{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .ctn-sec4{
+        flex: 1 0 40%;
+    }
+}
+
+@media screen and  (min-width:945px){
+    .container6{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .ctn-sec4{
+        flex: 1 0 25%;
+    }
 }
