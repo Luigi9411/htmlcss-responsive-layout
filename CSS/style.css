@@ -738,3 +738,29 @@ html{
         padding: 0 19em;
     }
 }
+
+/* footer */
+
+.footer-color{
+    background-color: black;
+}
+
+.container9 p{
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.container9 div{
+    color: white;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.container9 a{
+    color: #9792E4;
+}
+
+@media (min-width:600px) and (max-width:944px){
+    
+}
