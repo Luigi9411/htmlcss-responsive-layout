@@ -762,5 +762,19 @@ html{
 }
 
 @media (min-width:600px) and (max-width:944px){
+    .container9{
+        padding: 0 6em;
+    }
+
     
+}
+
+@media screen and  (min-width:945px){
+    .container9{
+        padding: 0 16em;
+    }
+
+    .container9 div{
+        padding: 2em 2em;
+    }
 }
