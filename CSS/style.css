@@ -18,7 +18,8 @@ html{
 .container5,
 .container6,
 .container7,
-.container8{
+.container8,
+.container9{
     max-width: 1120px; ;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -613,7 +614,7 @@ html{
     padding: .4em 1em;
     background-color: #9792E4;
     color: white;
-    margin: 1em 0;
+    margin-bottom: 4em;
 }
 
 .fa-linkedin-in{
@@ -681,5 +682,59 @@ html{
 
     .second-sec5 h4{
         font-size: 1.5em;
+    }
+}
+
+/* section6 */
+
+.container8{
+    text-align: center;
+}
+
+.container8 h5{
+    color: lightgray;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.container8 h2{
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.container8 h1{
+    color: #FDC15F;
+    font-size: 3.5em;
+    margin-bottom: .5em;
+}
+
+.container8 p{
+    color: white;
+    line-height: 25px;
+    margin-bottom: 1em;
+}
+
+.btn-sec6{
+    font-size: 1.3em;
+    padding: .7em 2.8em;
+    color: #9792E4;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.sec6-text{
+    color: white;
+    font-size: .9em;
+    margin-bottom: 4em;
+}
+
+.privacy-color{
+    color: white;
+}
+
+@media screen and  (min-width:945px){
+    .container8 p{
+        padding: 0 19em;
     }
 }
